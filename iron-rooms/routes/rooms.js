@@ -73,7 +73,7 @@ router.get("/:id", (req, res) => {
          res.render("rooms/room-details", room)
         })
     .catch(error=>{res.render("rooms/rooms-list")})
-     })
+})
 
 
 module.exports = router;
